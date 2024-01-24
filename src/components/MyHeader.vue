@@ -4,7 +4,7 @@
 
 <template>
   <div v-if="windowWidth > 768">
-    <div class="m-4 pt-4">
+    <div class="m-4 mb-5 pt-3">
       <div class="container justify-content-center text-center">
         <div class="row">
           <div class="col navItem navLine">
@@ -27,7 +27,7 @@
     </div>
   </div>
   <div v-else>
-    <div class="navbar hamburger m-5 p-2">
+    <div class="navbar hamburger m-4 p-2">
 
       <button class="btn btn-lg btnHeader" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         <span class="navbar-toggler-icon"></span>
@@ -86,42 +86,11 @@ export default {
 </script>
 
 <style scoped>
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
-
-.navText
-{
-  color: #123d67;
-}
-
-.navItem
-{
-  text-decoration: none;
-  padding: 5px;
-  font-size: 35px;
-  color: #123d67;
-}
-.navLine
-{
-  border-right: solid #d6c389;
-}
 
 .hamburger
 {
   border: solid #d6c389;
+  border-width: 3px;
   padding: 0px;
 }
 
