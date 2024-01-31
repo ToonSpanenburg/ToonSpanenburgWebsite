@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Urbanist', sans-serif;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.navText
+{
+    color: #123d67;
+}
+
+.navItem
+{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 35px;
+    color: #123d67;
+}
+.navLine
+{
+    border-right: solid #d6c389;
+}
+
+.myTitle
+{
+    font-size: 4em;
+    color: #123d67;
+}
+
+.myBorder
+{
+    display: inline-block;
+    border-style: solid;
+    border-color: #d6c389;
+    border-width: 5px;
+}
+.myBorderPadding
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.subtitleTitle
+{
+    color: #d6c389;
+    font-size: 2em;
+}
+
+.voorstellingHeader
+{
+    display: inline-block;
+    background-color:#123d67 ;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.voorstellingText
+{
+    color: #123d67;
+    font-size: 1.5em;
+    line-height: 30pt;
+}
+
+h2
+{
+    color: #d6c389;
+    font-size: 2.5em;
+}
+
+.interessesTextBorder
+{
+    display: inline-block;
+    border-style: solid;
+    border-color: #d6c389;
+    border-width: 5px;
+}
+
+.interessesText
+{
+    color: #123d67;
+    font-size: 1.5em;
+    line-height: 30pt;
+}
+
+h4
+{
+    font-size: 1.5em;
+}
+
+.skillsHeader
+{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 200px;
+    background-color: #123d67;
+    color: white;
+}
+
+#footer
+{
+    background-color: #123d67;
+    color: white;
+}
+
+i
+{
+    font-size: 3em;
+    color:#123d67;
+}
+
+.contactText
+{
+    color:#123d67;
+    font-size: 2em;
+}
+
+ul
+{
+    color:#123d67;
+    font-size: 1.5em;
+}
+
+.footerLogoSize
+{
+    font-size: 0.5em;
+}
+
+@media only screen and (max-width: 1199px) {
+    #contactImage
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navItem
+    {
+        font-size: 20px;
+    }
+
+    .voorstellingText
+    {
+        font-size: 1.5em;
+    }
+    .contactText
+    {
+        font-size: 1.3em;
+    }
+
+    #images
+    {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 559px) {
+    .myTitle
+    {
+        font-size: 3em;
+    }
+    i
+    {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .myTitle
+    {
+        font-size: 2em;
+    }
+}

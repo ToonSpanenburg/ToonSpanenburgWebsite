@@ -2,11 +2,13 @@
 
 import MyHeader from "@/components/MyHeader.vue";
 import TestComponent from "@/components/TestComponent.vue";
+import WelcomeComponent from "@/components/WelcomeComponent.vue";
 </script>
 
 <template>
 
   <MyHeader/>
+  <welcome-component/>
   <TestComponent/>
 </template>
 
