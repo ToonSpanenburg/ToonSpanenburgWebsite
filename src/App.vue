@@ -3,12 +3,14 @@
 import MyHeader from "@/components/MyHeader.vue";
 import TestComponent from "@/components/TestComponent.vue";
 import WelcomeComponent from "@/components/WelcomeComponent.vue";
+import SkillsComponent from "@/components/SkillsComponent.vue";
 </script>
 
 <template>
 
   <MyHeader/>
   <welcome-component/>
+  <SkillsComponent/>
   <TestComponent/>
 </template>
 
