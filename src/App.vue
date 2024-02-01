@@ -7,11 +7,13 @@ import SkillsComponent from "@/components/SkillsComponent.vue";
 </script>
 
 <template>
+  <div style="width: 80%; margin: auto">
+    <MyHeader/>
+    <welcome-component/>
+    <SkillsComponent/>
+    <TestComponent/>
+  </div>
 
-  <MyHeader/>
-  <welcome-component/>
-  <SkillsComponent/>
-  <TestComponent/>
 </template>
 
 

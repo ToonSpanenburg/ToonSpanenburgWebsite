@@ -4,7 +4,7 @@
 
 <template>
   <div v-if="windowWidth > 768">
-    <div class="m-4 mb-5 pt-3">
+    <div class="m-4 mb-5 ">
       <div class="container justify-content-center text-center">
         <div class="row">
           <div class="col navItem navLine">
