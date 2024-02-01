@@ -19,6 +19,9 @@
           <div class="col navItem navLine">
             <a href="#Skills" class="navText">Skills</a>
           </div>
+          <div class="col navItem navLine">
+            <a href="#Projects" class="navText">Projects</a>
+          </div>
           <div class="col navItem">
             <a href="#Contact" class="navText">Contact</a>
           </div>
@@ -48,6 +51,9 @@
               </li>
               <li>
                 <a href="#Skills" class="navText">Skills</a>
+              </li>
+              <li>
+                <a href="#Projects" class="navText">Projects</a>
               </li>
               <li>
                 <a href="#Contact" class="navText">Contact</a>

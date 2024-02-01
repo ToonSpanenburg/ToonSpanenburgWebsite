@@ -1,22 +1,23 @@
 <script setup>
-import { ref, computed } from 'vue'
 import vueSkillsComponent from './Skills/vueSkillComponent.vue';
 import ButtonComponent from "@/components/Skills/ButtonComponent.vue";
+import TestSkillsComponent from "@/components/Skills/testSkillsComponent.vue";
+import {ref} from "vue";
+
+const activeSkill = ref('vue');
 
 
-const routes = {
-  '/': vueSkillsComponent,
+const mySkills = [
+    "vue",
+    "test",
+    "Item 3"
+];
+function buttonClick(id)
+{
+  activeSkill.value = mySkills[id].toString();
 }
 
-const currentPath = ref(window.location.hash)
 
-window.addEventListener('hashchange', () => {
-  currentPath.value = window.location.hash
-})
-
-const currentView = computed(() => {
-  return routes[currentPath.value.slice(1) || '/']
-})
 </script>
 
 <template>
@@ -29,19 +30,19 @@ const currentView = computed(() => {
 
       <div class="skillsBorder">
         <div class="row">
-          <div class="col-3 skillsLine">
-
-            <button-component/>
-            <button-component/>
-            <button-component/>
-            <button-component/>
-            <button-component/>
-            <button-component/>
-
-
+          <div class="col-3 skillsLine" >
+            <div v-for="(item, index) in mySkills" :key="index">
+              <button-component @click="buttonClick(index)" :buttonName="item" />
+            </div>
           </div>
-          <div class="col-9">
-            <component :is="currentView" />
+          <div class="col-9 pb-4" id="SkillBox">
+            <div v-if="activeSkill == 'vue'">
+              <vueSkillsComponent/>
+            </div>
+
+            <div v-if="activeSkill == 'test'">
+              <test-skills-component/>
+            </div>
           </div>
         </div>
       </div>

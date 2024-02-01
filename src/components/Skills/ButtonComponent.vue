@@ -1,17 +1,23 @@
-<script setup>
-
+<script>
+export default {
+  props: ['buttonName']
+};
 </script>
 
 <template>
   <div class="row">
-    <a href="" class="text-center  skillsButton bottomBorder">
+    <button class="text-center  skillsButton bottomBorder">
       <h3>
-        test
+        {{buttonName}}
       </h3>
-    </a>
+    </button>
   </div>
 </template>
 
 <style scoped>
+  button{
+    border: none;
+    background: none;
+  }
 
 </style>
