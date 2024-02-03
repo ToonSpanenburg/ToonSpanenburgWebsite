@@ -1,16 +1,17 @@
 <script setup>
-import vueSkillsComponent from './Skills/vueSkillComponent.vue';
 import ButtonComponent from "@/components/Skills/ButtonComponent.vue";
-import TestSkillsComponent from "@/components/Skills/testSkillsComponent.vue";
 import {ref} from "vue";
+import WebdesignSkillsComponent from "@/components/Skills/WebdesignSkillsComponent.vue";
+import ProgrammerenSkillsComponent from "@/components/Skills/ProgrammerenSkillsComponent.vue";
+import VariaSkillsComponent from "@/components/Skills/VariaSkillsComponent.vue";
 
-const activeSkill = ref('vue');
+const activeSkill = ref('webDesign');
 
 
 const mySkills = [
-    "vue",
-    "test",
-    "Item 3"
+    "webDesign",
+    "programmeren",
+    "varia"
 ];
 function buttonClick(id)
 {
@@ -28,21 +29,27 @@ function buttonClick(id)
         Skills
       </h2>
 
-      <div class="skillsBorder">
-        <div class="row">
-          <div class="col-3 skillsLine" >
-            <div v-for="(item, index) in mySkills" :key="index">
+      <div class="skillsBorder SkillsBox">
+        <div class="row rowFix">
+          <div class="col-3 skillsLine GreyBox buttonBox" >
+            <div v-for="(item, index) in mySkills" :key="index" >
               <button-component @click="buttonClick(index)" :buttonName="item" />
             </div>
           </div>
           <div class="col-9 pb-4" id="SkillBox">
-            <div v-if="activeSkill == 'vue'">
-              <vueSkillsComponent/>
+
+            <div v-if="activeSkill == 'webDesign'">
+              <WebdesignSkillsComponent/>
             </div>
 
-            <div v-if="activeSkill == 'test'">
-              <test-skills-component/>
+            <div v-if="activeSkill == 'programmeren'">
+              <ProgrammerenSkillsComponent/>
             </div>
+
+            <div v-if="activeSkill == 'varia'">
+              <VariaSkillsComponent/>
+            </div>
+
           </div>
         </div>
       </div>
@@ -59,6 +66,9 @@ function buttonClick(id)
     border-right-width: 3px;
   }
 
+  .rowFix{
+    margin-left: 0;
+  }
 
   .skillsBorder
   {
@@ -66,6 +76,16 @@ function buttonClick(id)
     border-style: solid;
     border-color: #d6c389;
     border-width: 3px;
-    margin-left: -9px;
   }
+
+  .SkillsBox
+  {
+    min-height: 400px;
+  }
+
+  .buttonBox
+  {
+    min-height: 400px;
+  }
+
 </style>

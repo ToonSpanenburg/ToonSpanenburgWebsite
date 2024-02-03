@@ -5,8 +5,8 @@ export default {
 </script>
 
 <template>
-  <div class="row">
-    <button class="text-center  skillsButton bottomBorder">
+  <div class="row mt-2">
+    <button class="skillsButton">
       <h3>
         {{buttonName}}
       </h3>
@@ -18,6 +18,10 @@ export default {
   button{
     border: none;
     background: none;
+    color: #123d67;
   }
-
+  button:hover
+  {
+    color:#d6c389;
+  }
 </style>

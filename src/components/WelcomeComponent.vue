@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <div class="m-4 mt-4 boxWidth justify-content-center text-center">
-    <div class=" paddingBoxX py-5 text-center myBorder">
-      <div class="myBorderPadding ">
+  <div class="m-4 mt-4 boxWidth justify-content-center text-center ">
+    <div class=" paddingBoxX py-5 text-center myBorder GreyBox">
+      <div class="myBorderPadding  ">
         <h1 class="myTitle">
           Toon Spanenburg
         </h1>
@@ -32,5 +32,6 @@
   {
     border-width: 3px;
   }
+
 }
 </style>
