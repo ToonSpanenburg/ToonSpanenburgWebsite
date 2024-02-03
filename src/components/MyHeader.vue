@@ -3,15 +3,12 @@
 </script>
 
 <template>
-  <div v-if="windowWidth > 768">
+  <div v-if="windowWidth > 795">
     <div class="m-4 mb-5 ">
       <div class="container justify-content-center text-center">
         <div class="row">
           <div class="col navItem navLine">
             <a href="#voorstelling" class="navText">Voorstelling</a>
-          </div>
-          <div class="col navItem navLine">
-            <a href="#Interesses" class="navText">interesses</a>
           </div>
           <div class="col navItem navLine">
             <a href="#Ervaring" class="navText">Ervaring</a>
@@ -76,11 +73,9 @@ export default {
     };
   },
   mounted() {
-    // Add an event listener to update windowWidth on resize
     window.addEventListener('resize', this.handleResize);
   },
   beforeDestroy() {
-    // Remove the event listener when the component is destroyed
     window.removeEventListener('resize', this.handleResize);
   },
   methods: {
