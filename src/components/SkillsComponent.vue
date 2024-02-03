@@ -1,0 +1,140 @@
+<script setup>
+import ButtonComponent from "@/components/Skills/ButtonComponent.vue";
+import {ref} from "vue";
+import WebdesignSkillsComponent from "@/components/Skills/WebdesignSkillsComponent.vue";
+import ProgrammerenSkillsComponent from "@/components/Skills/ProgrammerenSkillsComponent.vue";
+import VariaSkillsComponent from "@/components/Skills/VariaSkillsComponent.vue";
+
+const activeSkill = ref('webDesign');
+
+
+const mySkills = [
+    "webDesign",
+    "programmeren",
+    "varia"
+];
+function buttonClick(id)
+{
+  activeSkill.value = mySkills[id].toString();
+}
+
+
+</script>
+
+<script>
+export default {
+  data() {
+    return {
+      windowWidth: window.innerWidth,
+    };
+  },
+  mounted() {
+    window.addEventListener('resize', this.handleResize);
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.windowWidth = window.innerWidth;
+    },
+  },
+};
+</script>
+
+<template>
+<div class="m-4">
+  <div id="Skills" class=" mb-5">
+    <div class="">
+      <h2 class="mb-3">
+        Skills
+      </h2>
+
+      <div class="skillsBorder SkillsBox">
+        <div class="row rowFix">
+
+          <div v-if="windowWidth > 795" class="col-3 skillsLine GreyBox buttonBox" >
+            <div v-for="(item, index) in mySkills" :key="index" >
+              <button-component @click="buttonClick(index)" :buttonName="item" />
+            </div>
+          </div>
+
+          <div v-if="windowWidth < 795">
+            <div class="GreyBox mobileSkillMenu row py-2">
+              <div v-for="(item, index) in mySkills" :key="index" class="col-4">
+                <button-component @click="buttonClick(index)" :buttonName="item" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-9 col-lg-9 pb-4" id="SkillBox">
+
+            <div v-if="activeSkill == 'webDesign'">
+              <WebdesignSkillsComponent/>
+            </div>
+
+            <div v-if="activeSkill == 'programmeren'">
+              <ProgrammerenSkillsComponent/>
+            </div>
+
+            <div v-if="activeSkill == 'varia'">
+              <VariaSkillsComponent/>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</template>
+
+<style scoped>
+  .skillsLine
+  {
+    border-right-style: solid;
+    border-right-color: #d6c389;
+    border-right-width: 3px;
+  }
+
+  .rowFix{
+    margin-left: 0;
+  }
+
+  .skillsBorder
+  {
+    display: inline-block;
+    border-style: solid;
+    border-color: #d6c389;
+    border-width: 3px;
+  }
+
+  .SkillsBox
+  {
+    min-height: 400px;
+  }
+
+  .buttonBox
+  {
+    min-height: 400px;
+  }
+
+  .mobileSkillMenu
+  {
+    margin-right: 0;
+    padding-right: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #d6c389;
+    border-bottom-width: 3px;
+  }
+
+  @media only screen and (max-width: 800px)
+  {
+    .buttonBox
+    {
+      min-height: 0px;
+    }
+  }
+
+</style>
