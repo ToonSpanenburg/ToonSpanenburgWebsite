@@ -44,7 +44,7 @@ export default {
 
 <template>
 <div class="m-4">
-  <div id="Skills" class="container mb-5">
+  <div id="Skills" class=" mb-5">
     <div class="">
       <h2 class="mb-3">
         Skills
@@ -67,7 +67,7 @@ export default {
             </div>
           </div>
 
-          <div class="col-9 pb-4" id="SkillBox">
+          <div class="col-sm-12 col-md-9 col-lg-9 pb-4" id="SkillBox">
 
             <div v-if="activeSkill == 'webDesign'">
               <WebdesignSkillsComponent/>
@@ -82,6 +82,7 @@ export default {
             </div>
 
           </div>
+
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@
 
 <template>
   <div class="m-4 mt-4 boxWidth justify-content-center text-center ">
-    <div class=" paddingBoxX py-5 text-center myBorder GreyBox">
+    <div class=" paddingBoxX py-5 text-center myBorder WelcomeBox">
       <div class="myBorderPadding  ">
         <h1 class="myTitle">
           Toon Spanenburg
@@ -21,7 +21,10 @@
 </template>
 
 <style scoped>
-
+.WelcomeBox
+{
+  background-color: #f5f5f5;
+}
 
 @media only screen and (max-width: 768px) {
   .boxWidth
