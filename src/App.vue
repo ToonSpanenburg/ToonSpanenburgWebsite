@@ -4,6 +4,7 @@ import MyHeader from "@/components/MyHeader.vue";
 import TestComponent from "@/components/TestComponent.vue";
 import WelcomeComponent from "@/components/WelcomeComponent.vue";
 import SkillsComponent from "@/components/SkillsComponent.vue";
+import ProjectsComponent from "@/components/ProjectsComponent.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import SkillsComponent from "@/components/SkillsComponent.vue";
     <MyHeader/>
     <welcome-component/>
     <SkillsComponent/>
+    <ProjectsComponent/>
     <TestComponent/>
   </div>
 
