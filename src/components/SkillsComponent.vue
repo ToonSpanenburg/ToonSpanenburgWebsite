@@ -98,9 +98,6 @@ export default {
     border-right-width: 3px;
   }
 
-  .rowFix{
-    margin-left: 0;
-  }
 
   .skillsBorder
   {
