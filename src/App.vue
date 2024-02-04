@@ -24,7 +24,7 @@ import ContactComponent from "@/components/ContactComponent.vue";
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
-
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
 body {
   margin: 0;
   padding: 0;

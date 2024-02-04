@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<h3>
+<h3 class="mt-5">
   Used Colors
 </h3>
   <ul>
