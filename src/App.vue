@@ -7,12 +7,14 @@ import SkillsComponent from "@/components/SkillsComponent.vue";
 import ProjectsComponent from "@/components/ProjectsComponent.vue";
 import ContactComponent from "@/components/ContactComponent.vue";
 import FooterComponent from "@/components/FooterComponent.vue";
+import VoorstellingComponent from "@/components/VoorstellingComponent.vue";
 </script>
 
 <template>
   <div style="width: 80%; margin: auto">
     <MyHeader/>
     <welcome-component/>
+    <VoorstellingComponent/>
     <SkillsComponent/>
     <ProjectsComponent/>
     <ContactComponent/>
