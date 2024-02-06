@@ -1,0 +1,144 @@
+<script setup>
+
+</script>
+
+<template>
+  <div class="mt-3">
+    <h2 class="m-4 mt-5">
+      Contact en gegevens
+    </h2>
+
+    <div class="row mx-3 mt-2 mb-5 pb-4">
+      <div class="col-5">
+        <img src="@/assets/TempProfilePic.jpg" alt="" class="text-center" style="height: 60px;">
+        <h3 class="mb-0 mt-1">
+          Toon Spanenburg
+        </h3>
+
+        <div class="text-muted mt-0 mb-2">
+          {Programmeur,}
+        </div>
+        <div class="mt-1">
+          <ul class="ms-0 ps-0">
+
+            <li class="mt-1">
+              <a class="contactLink" href="tel:32471782397">
+                <i class="bi bi-telephone-fill"></i>
+                +32 471 78 23 97
+              </a>
+            </li>
+
+            <li class="mt-1">
+
+              <a class="contactLink" href="mailto: toonspanenburg@hotmail.com">
+                <i class="bi bi-envelope-fill"></i>
+                toonspanenburg@hotmail.com
+              </a>
+
+            </li>
+
+            <li class="mt-1">
+              <a class="contactLink" href="https://github.com/ToonSpanenburg">
+                <i class="bi bi-github"></i>
+                @ToonSpanenburg
+              </a>
+            </li>
+
+            <li class="mt-1">
+              <a class="contactLink" href="https://github.com/ToonSpanenburg/ToonSpanenburgWebsite">
+                <i class="bi bi-github"></i>
+                This website on Github
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-7 CvElement">
+
+        <a href="">
+          <div>
+            <span href="" class="CvFont">
+              DOWNLOAD MIJN CV
+            </span>
+            <span class="CvFontAlt ps-1 pt-1">
+              DOWNLOAD MIJN CV
+            </span>
+          </div>
+
+          <div class="pt-5 ps-5 ">
+            <span href="" class="CvFontAqua">
+              DOWNLOAD MIJN CV
+            </span>
+            <span class="CvFontAlt ps-1 pt-1">
+              DOWNLOAD MIJN CV
+            </span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+
+</template>
+
+<style scoped>
+ ul
+ {
+   list-style: none;
+ }
+ li
+ {
+   padding-left: 0;
+   margin-left: 0;
+   font-size: 1em;
+ }
+ .contactLink
+ {
+   color: black;
+ }
+ .contactLink:hover
+ {
+   text-decoration: underline;
+ }
+ i
+ {
+   color: black;
+ }
+ a
+ {
+   font-size: 0.8em;
+ }
+ .CvFont
+ {
+   font-size: 8em;
+   color: #d6c389;
+   z-index: 1;
+   position: absolute;
+ }
+ .CvFontAlt
+ {
+   font-size: 8em;
+   color: #f5f5f5;
+   z-index: 2;
+   position: absolute;
+ }
+ .CvFontAqua
+ {
+   color: #89D6C3;
+   font-size: 8em;
+   z-index: 2;
+   position: absolute;
+ }
+ .CvElement
+ {
+   transition: transform 0.3s ease;
+ }
+ .CvElement:hover
+ {
+   transform: scale(1.15);
+ }
+
+</style>
