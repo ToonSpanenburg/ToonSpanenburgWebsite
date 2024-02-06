@@ -10,9 +10,13 @@
           <div class="col navItem navLine">
             <a href="#voorstelling" class="navText">Voorstelling</a>
           </div>
+
+          <!--
           <div class="col navItem navLine">
             <a href="#Ervaring" class="navText">Ervaring</a>
           </div>
+          -->
+
           <div class="col navItem navLine">
             <a href="#Skills" class="navText">Skills</a>
           </div>
@@ -43,9 +47,13 @@
               <li>
                 <a href="#Interesses" class="navText">interesses</a>
               </li>
+
+              <!--
               <li>
                 <a href="#Ervaring" class="navText">Ervaring</a>
               </li>
+              -->
+
               <li>
                 <a href="#Skills" class="navText">Skills</a>
               </li>
