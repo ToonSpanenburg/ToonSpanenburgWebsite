@@ -4,47 +4,77 @@
 
 <template>
   <div class="mt-3">
-    <h2 class="m-4">
+    <h2 class="m-4 mt-5">
       Contact en gegevens
     </h2>
-    <div class="row mx-3">
+
+    <div class="row mx-3 mt-2 mb-5 pb-4">
       <div class="col-5">
-        <div class="ContactBorder">
-          <div class="card-header text-center ContactBoxHeader topBorder">
-            <div class="pt-2 ">
-              <img src="@/assets/TempProfilePic.jpg" alt="" style="height: 60px;">
-            </div>
-            <h5>
-              Toon Spanenburg
-            </h5>
-          </div>
-          <div class="py-2 pt-3 bg-white">
-            <p class="ps-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, asperiores assumenda consequatur doloribus inventore itaque quod vitae! Architecto cum cumque, doloremque esse illo itaque libero magnam, mollitia nostrum, tempora ut.
-            </p>
-            <ul>
-              <li class="">
-                <div class="">
-                  <i class="bi bi-telephone-fill"></i>
-                  <a class="px-2" href="tel:32471782397">+32 471 78 23 97</a>
-                </div>
-              </li>
-              <li>
+        <img src="@/assets/TempProfilePic.jpg" alt="" class="text-center" style="height: 60px;">
+        <h3 class="mb-0">
+          Toon Spanenburg
+        </h3>
+        <div class="text-muted mt-0">
+          {Programmeur,}
+        </div>
+        <div class="mt-1">
+          <ul class="ms-0 ps-0">
+
+            <li class="mt-1">
+              <a class="contactLink" href="tel:32471782397">
+                <i class="bi bi-telephone-fill"></i>
+                +32 471 78 23 97
+              </a>
+            </li>
+
+            <li class="mt-1">
+
+              <a class="contactLink" href="mailto: toonspanenburg@hotmail.com">
                 <i class="bi bi-envelope-fill"></i>
-                <a class="px-2" href="mailto: toonspanenburg@hotmail.com">toonspanenburg@hotmail.com</a>
-              </li>
-              <li>
+                toonspanenburg@hotmail.com
+              </a>
+
+            </li>
+
+            <li class="mt-1">
+              <a class="contactLink" href="https://github.com/ToonSpanenburg">
                 <i class="bi bi-github"></i>
-                <a class="px-2" href="https://github.com/ToonSpanenburg">@ToonSpanenburg</a>
-              </li>
-            </ul>
-          </div>
+                @ToonSpanenburg
+              </a>
+            </li>
+
+            <li class="mt-1">
+              <a class="contactLink" href="https://github.com/ToonSpanenburg/ToonSpanenburgWebsite">
+                <i class="bi bi-github"></i>
+                This website on Github
+              </a>
+            </li>
+
+          </ul>
         </div>
       </div>
-      <div class="col-7 mt-0 CvElement">
-        <a href="" class="CvFont">
-          DOWNLOAD MIJN CV
+      <div class="col-7 CvElement">
+
+        <a href="">
+          <div>
+            <span href="" class="CvFont">
+              DOWNLOAD MIJN CV
+            </span>
+            <span class="CvFontAlt ps-1 pt-1">
+              DOWNLOAD MIJN CV
+            </span>
+          </div>
+
+          <div class="pt-5 ps-5 ">
+            <span href="" class="CvFontAqua">
+              DOWNLOAD MIJN CV
+            </span>
+            <span class="CvFontAlt ps-1 pt-1">
+              DOWNLOAD MIJN CV
+            </span>
+          </div>
         </a>
+
       </div>
     </div>
   </div>
@@ -57,26 +87,48 @@
  {
    list-style: none;
  }
+ li
+ {
+   padding-left: 0;
+   margin-left: 0;
+   font-size: 1em;
+ }
+ .contactLink
+ {
+   color: black;
+ }
+ .contactLink:hover
+ {
+   text-decoration: underline;
+ }
+ i
+ {
+   color: black;
+ }
  a
  {
    font-size: 0.8em;
- }
- .ContactBorder
- {
-   border-color: #d6c389;
-   border-bottom-width: 3px;
-   border-style: solid;
-   background-color: #f5f5f5;
- }
- .ContactBoxHeader
- {
-   border-bottom: #d6c389 solid 3px;
  }
  .CvFont
  {
    font-size: 8em;
    color: #d6c389;
-
+   z-index: 1;
+   position: absolute;
+ }
+ .CvFontAlt
+ {
+   font-size: 8em;
+   color: #f5f5f5;
+   z-index: 2;
+   position: absolute;
+ }
+ .CvFontAqua
+ {
+   color: #89D6C3;
+   font-size: 8em;
+   z-index: 2;
+   position: absolute;
  }
  .CvElement
  {
