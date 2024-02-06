@@ -11,10 +11,11 @@
     <div class="row mx-3 mt-2 mb-5 pb-4">
       <div class="col-5">
         <img src="@/assets/TempProfilePic.jpg" alt="" class="text-center" style="height: 60px;">
-        <h3 class="mb-0">
+        <h3 class="mb-0 mt-1">
           Toon Spanenburg
         </h3>
-        <div class="text-muted mt-0">
+
+        <div class="text-muted mt-0 mb-2">
           {Programmeur,}
         </div>
         <div class="mt-1">
@@ -53,6 +54,7 @@
           </ul>
         </div>
       </div>
+
       <div class="col-7 CvElement">
 
         <a href="">
