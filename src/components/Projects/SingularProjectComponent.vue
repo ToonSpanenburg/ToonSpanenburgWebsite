@@ -23,6 +23,10 @@ function GetTypeColor(projectType)
   {
     return "#D69C89";
   }
+  if (projectType == "ervaring")
+  {
+    return "#d6c389";
+  }
   else
   {
     return "#f5f5f5";
