@@ -57,25 +57,7 @@
 
       <div class="col-7 CvElement">
 
-        <a href="">
-          <div>
-            <span href="" class="CvFont">
-              DOWNLOAD MIJN CV
-            </span>
-            <span class="CvFontAlt ps-1 pt-1">
-              DOWNLOAD MIJN CV
-            </span>
-          </div>
 
-          <div class="pt-5 ps-5 ">
-            <span href="" class="CvFontAqua">
-              DOWNLOAD MIJN CV
-            </span>
-            <span class="CvFontAlt ps-1 pt-1">
-              DOWNLOAD MIJN CV
-            </span>
-          </div>
-        </a>
 
       </div>
     </div>
