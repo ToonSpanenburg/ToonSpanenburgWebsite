@@ -9,7 +9,8 @@
     </h2>
 
     <div class="row mx-3 mt-4 mb-4 pb-4">
-      <div class="col-5">
+
+      <div class="col-12 col-md-5">
         <img src="@/assets/TempProfilePic.jpg" alt="" class="text-center" style="height: 60px;">
         <h3 class="mb-0 mt-1">
           Toon Spanenburg
@@ -62,7 +63,7 @@
         </div>
       </div>
 
-      <div class="col-7">
+      <div class=" d-none d-md-block col-md-7">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39848.97531161168!2d4.829623072480251!3d51.37436747632918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6af01c4de5ebb%3A0x503aa8abb2714edf!2s2330%20Merksplas!5e0!3m2!1sen!2sbe!4v1707703810062!5m2!1sen!2sbe"
                 style="border:0; width: 100%; height: 100%;"
                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">

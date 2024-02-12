@@ -46,7 +46,7 @@
           <div class="col-10">
             <div class="row">
 
-              <div class="col-4">
+              <div class="col-12 col-md-6 col-lg-4">
                 <div class="ProjectsBorder Project paddingRowFixer mt-3 mb-3">
                   <div @click="GoToUrl(allProjects[0].value.gitLink)" style="cursor: pointer;" class="rowFix">
                     <SingularProjectComponent :Project="allProjects[0]"/>
@@ -54,7 +54,7 @@
                 </div>
               </div>
 
-              <div class="col-4 ">
+              <div class="d-none d-md-block col-md-6 col-lg-4">
                 <div class="ProjectsBorder Project paddingRowFixer mt-3 mb-3 ms-2">
                   <div @click="GoToUrl(allProjects[1].value.gitLink)" style="cursor: pointer;" class="rowFix">
                     <SingularProjectComponent :Project="allProjects[1]"/>
@@ -62,7 +62,7 @@
                 </div>
               </div>
 
-              <div class="col-4 ">
+              <div class="d-none d-lg-block col-lg-4">
                 <div class="ProjectsBorder Project paddingRowFixer mt-3 mb-3 ms-2">
                   <div @click="GoToUrl(allProjects[2].value.gitLink)" style="cursor: pointer;" class="rowFix">
                     <SingularProjectComponent :Project="allProjects[2]"/>
@@ -71,6 +71,8 @@
               </div>
 
             </div>
+
+
           </div>
 
 
@@ -85,6 +87,27 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      windowWidth: window.innerWidth,
+    };
+  },
+  mounted() {
+    window.addEventListener('resize', this.handleResize);
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.windowWidth = window.innerWidth;
+    },
+  },
+};
+</script>
 
 <style scoped>
   .ProjectsBorder
