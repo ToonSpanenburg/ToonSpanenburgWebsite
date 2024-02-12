@@ -34,7 +34,7 @@
 
     <!-- might add border back later -->
     <div class="">
-      <div class="py-4">
+      <div class="pb-4">
         <div class="row">
 
           <div class="col-1 d-flex align-items-center justify-content-center">
