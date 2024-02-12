@@ -53,7 +53,7 @@ export default {
       <div class="skillsBorder SkillsBox">
         <div class="row rowFix">
 
-          <div v-if="windowWidth > 795" class="col-3 skillsLine GreyBox buttonBox" >
+          <div v-if="windowWidth > 795" class="col-3 skillsLine GreyBox buttonBox pt-lg-4" >
             <div v-for="(item, index) in mySkills" :key="index" >
               <button-component @click="buttonClick(index)" :buttonName="item" />
             </div>

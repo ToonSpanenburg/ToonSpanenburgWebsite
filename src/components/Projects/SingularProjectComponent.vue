@@ -35,7 +35,7 @@ function GetTypeColor(projectType)
 </script>
 
 <template>
-<div class="ms-0 ">
+<div class="ms-0">
   <h4 class="py-2 ps-2 projectType" :style="{ backgroundColor: GetTypeColor(Project.type) }">
     {{Project.type}}
   </h4>

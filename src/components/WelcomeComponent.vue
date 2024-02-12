@@ -6,7 +6,7 @@
 
   <div class="m-4 mt-4 justify-content-center text-center pt-1">
     <div class="justify-content-center text-center welcomeElementBorder">
-      <div class="WelcomeBox p-4">
+      <div class="WelcomeBox p-4 p-lg-5">
         <h1 class="myTitle">
           Toon Spanenburg
         </h1>
