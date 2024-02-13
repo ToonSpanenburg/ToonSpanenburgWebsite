@@ -140,34 +140,4 @@
    }
  }
 
- .CvFont
- {
-   font-size: 8em;
-   color: #d6c389;
-   z-index: 1;
-   position: absolute;
- }
- .CvFontAlt
- {
-   font-size: 8em;
-   color: #f5f5f5;
-   z-index: 2;
-   position: absolute;
- }
- .CvFontAqua
- {
-   color: #89D6C3;
-   font-size: 8em;
-   z-index: 2;
-   position: absolute;
- }
- .CvElement
- {
-   transition: transform 0.3s ease;
- }
- .CvElement:hover
- {
-   transform: scale(1.15);
- }
-
 </style>
