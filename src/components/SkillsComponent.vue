@@ -44,7 +44,7 @@ export default {
 
 <template>
 <div class="m-4">
-  <div id="Skills" class=" mb-5">
+  <div id="Skills" class="mb-1 mb-md-3">
     <div class="">
       <h2 class="mb-3">
         Skills
@@ -53,19 +53,15 @@ export default {
       <div class="skillsBorder SkillsBox">
         <div class="row rowFix">
 
-          <div v-if="windowWidth > 795" class="col-3 skillsLine GreyBox buttonBox pt-lg-4" >
-            <div v-for="(item, index) in mySkills" :key="index" >
-              <button-component @click="buttonClick(index)" :buttonName="item" />
-            </div>
-          </div>
-
-          <div v-if="windowWidth < 795">
-            <div class="GreyBox mobileSkillMenu row py-2">
-              <div v-for="(item, index) in mySkills" :key="index" class="col-4">
+          <div  class="col-12 col-md-3 skillsLine GreyBox buttonBox pt-lg-4" >
+            <div class="row">
+              <div v-for="(item, index) in mySkills" :key="index" class="col-4 col-sm-4 col-md-12 p-2" >
                 <button-component @click="buttonClick(index)" :buttonName="item" />
               </div>
             </div>
+
           </div>
+
 
           <div class="col-sm-12 col-md-9 col-lg-9 pb-4" id="SkillBox">
 
@@ -117,20 +113,30 @@ export default {
     min-height: 400px;
   }
 
-  .mobileSkillMenu
-  {
-    margin-right: 0;
-    padding-right: 0;
-    border-bottom-style: solid;
-    border-bottom-color: #d6c389;
-    border-bottom-width: 3px;
-  }
-
-  @media only screen and (max-width: 800px)
+  @media only screen and (max-width: 767px)
   {
     .buttonBox
     {
       min-height: 0px;
+    }
+    .skillsLine
+    {
+      border-right: none;
+      border-bottom-style: solid;
+      border-bottom-color: #d6c389;
+      border-bottom-width: 3px;
+    }
+    .row
+    {
+      margin: 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px)
+  {
+    .skillsBorder
+    {
+      border: none;
     }
   }
 

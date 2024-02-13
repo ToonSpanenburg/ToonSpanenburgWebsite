@@ -38,7 +38,7 @@
         <div class="row">
 
           <div class="col-1 d-flex align-items-center justify-content-center">
-            <a @click="leftArrowClick()" class="btn">
+            <a @click="leftArrowClick()" class="btn p-0 p-sm-2">
               <i class="bi bi-arrow-left-short"></i>
             </a>
           </div>
@@ -77,7 +77,7 @@
 
 
           <div class="col-1 d-flex align-items-center justify-content-center">
-            <a @click="rightArrowClick()" class="btn">
+            <a @click="rightArrowClick()" class="btn p-0 p-sm-2">
               <i class="bi bi-arrow-right-short"></i>
             </a>
           </div>
