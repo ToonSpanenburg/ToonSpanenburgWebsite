@@ -53,7 +53,7 @@ export default {
       <div class="skillsBorder SkillsBox">
         <div class="row rowFix">
 
-          <div  class="col-12 col-md-3 skillsLine GreyBox buttonBox pt-lg-4" >
+          <div  class="col-12 col-md-3 skillsLine GreyBox buttonBox pt-lg-2" >
             <div class="row">
               <div v-for="(item, index) in mySkills" :key="index" class="col-4 col-sm-4 col-md-12 p-2" >
                 <button-component @click="buttonClick(index)" :buttonName="item" />
