@@ -19,17 +19,17 @@
         <div class="text-muted mt-0 mb-2">
           {Programmeur,}
         </div>
-        <div class="mt-1">
+        <div class="mt-2">
           <ul class="ms-0 ps-0">
 
-            <li class="mt-1">
+            <li class="mt-2 ">
               <a class="contactLink" href="tel:32471782397">
                 <i class="bi bi-telephone-fill"></i>
                 +32 471 78 23 97
               </a>
             </li>
 
-            <li class="mt-1">
+            <li class="mt-2">
 
               <a class="contactLink" href="mailto: toonspanenburg@hotmail.com">
                 <i class="bi bi-envelope-fill"></i>
@@ -38,21 +38,21 @@
 
             </li>
 
-            <li class="mt-1">
+            <li class="mt-2">
               <a class="contactLink" href="https://github.com/ToonSpanenburg">
                 <i class="bi bi-github"></i>
                 @ToonSpanenburg
               </a>
             </li>
 
-            <li class="mt-1">
+            <li class="mt-2">
               <a class="contactLink" href="https://github.com/ToonSpanenburg/ToonSpanenburgWebsite">
                 <i class="bi bi-github"></i>
                 This website on Github
               </a>
             </li>
 
-            <li class="mt-1">
+            <li class="mt-2">
               <a class="contactLink" href="">
                 <i class="bi bi-download"></i>
                 Download mijn Cv
@@ -85,7 +85,7 @@
  {
    padding-left: 0;
    margin-left: 0;
-   font-size: 1em;
+   font-size: 1.7em;
  }
  .contactLink
  {
@@ -95,14 +95,51 @@
  {
    text-decoration: underline;
  }
+
  i
  {
    color: black;
+   padding-right: 0.2em;
  }
+
  a
  {
    font-size: 0.8em;
  }
+
+
+ @media only screen and (max-width: 950px)
+ {
+   li
+   {
+     font-size: 1.3em;
+   }
+ }
+
+ @media only screen and (max-width: 767px)
+ {
+   li
+   {
+     font-size: 1.8em;
+   }
+   i
+   {
+     font-size: 1em;
+   }
+ }
+
+ @media only screen and (max-width: 500px)
+ {
+   li
+   {
+     font-size: 1.2em;
+   }
+   i
+   {
+     font-size: 1.3em;
+   }
+ }
+
  .CvFont
  {
    font-size: 8em;
