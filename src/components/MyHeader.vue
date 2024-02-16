@@ -58,7 +58,9 @@
                 <a href="#Contact" class="navText">Contact</a>
               </li>
               <li>
-                <a href="#Contact" class="navText">Mijn Cv</a>
+                <a href="#Contact" class="navText">Mijn Cv
+                  <i class="bi bi-download"></i>
+                </a>
               </li>
             </ul>
           </div>
@@ -103,5 +105,9 @@ export default {
 .btnHeader
 {
   margin-right: 100%;
+}
+i
+{
+  font-size: 1em;
 }
 </style>
