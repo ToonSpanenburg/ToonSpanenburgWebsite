@@ -53,7 +53,7 @@
             </li>
 
             <li class="mt-2">
-              <a class="contactLink" href="">
+              <a class="contactLink" href="Files/ToonSpanenburgCV.pdf" download="ToonSpanenburgCV.pdf">
                 <i class="bi bi-download"></i>
                 Download mijn Cv
               </a>

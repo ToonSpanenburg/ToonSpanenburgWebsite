@@ -23,7 +23,7 @@
           </div>
 
           <div class="col navItem">
-            <a href="" class="navText">Mijn Cv</a>
+            <a href="Files/ToonSpanenburgCV.pdf" download="ToonSpanenburgCV.pdf" class="navText">Mijn Cv</a>
           </div>
         </div>
       </div>
