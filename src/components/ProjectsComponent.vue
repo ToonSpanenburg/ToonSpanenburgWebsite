@@ -139,4 +139,5 @@ export default {
   {
     background-color: whitesmoke;
   }
+
 </style>

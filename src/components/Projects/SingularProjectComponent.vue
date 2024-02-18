@@ -39,19 +39,20 @@ function GetTypeColor(projectType)
   <h4 class="py-2 ps-2 projectType" :style="{ backgroundColor: GetTypeColor(Project.type) }">
     {{Project.type}}
   </h4>
-  <div class="ms-3 mt-3">
+  <div class="ms-3 mt-3 me-3">
     <h5>
       {{Project.name}}
     </h5>
     <p>
       {{Project.description}}
     </p>
+    <a href="{{Project.link}}">
+      <p class="text-muted py-2  ProjectTextLink">
+        {{Project.link}}
+      </p>
+    </a>
   </div>
-  <a href="{{Project.link}}">
-    <p class="text-muted py-2 ps-2 ProjectTextLink">
-      {{Project.link}}
-    </p>
-  </a>
+
 </div>
 </template>
 
@@ -66,4 +67,6 @@ function GetTypeColor(projectType)
   margin-bottom: 0;
 
 }
+
+
 </style>

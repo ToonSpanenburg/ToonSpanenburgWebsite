@@ -16,8 +16,8 @@
           Toon Spanenburg
         </h3>
 
-        <div class="text-muted mt-0 mb-2">
-          {Programmeur,}
+        <div class="text-muted mt-0 mb-3">
+          {Programmeur}
         </div>
         <div class="mt-2">
           <ul class="ms-0 ps-0">
