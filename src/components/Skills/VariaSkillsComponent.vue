@@ -14,9 +14,8 @@
           <h4>
             Sql
           </h4>
-          <p>
-            css, scss, bootstrap
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-2">
+            Ik heb ervaring met <b>SQL</b>, de essentiële taal voor databasemanagement. Ik gebruik <b>SQL</b> voor efficiënte gegevensbeheeroplossingen en veilige databasetoepassingen. Hiermee kan ik betrouwbare gegevensopslag implementeren voor diverse projecten.
           </p>
         </div>
       </div>
@@ -26,9 +25,8 @@
           <h4>
             Agile/Scrum
           </h4>
-          <p>
-            Vue.js, React, Node
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-2">
+            Ik ben vertrouwd met <b>Agile</b> en <b>Scrum</b>, de flexibele methodologieën voor projectmanagement. Hiermee stuur ik projecten  naar succes door middel van iteratieve ontwikkeling en continue verbetering. Mijn ervaring met <b>Agile</b> en <b>Scrum</b> helpt teams om efficiënt samen te werken en waardegerichte resultaten te leveren.
           </p>
         </div>
       </div>
@@ -38,9 +36,9 @@
           <h4>
             Photoshop
           </h4>
-          <p>
-            Vue.js, React, Node
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-2">
+            Ook werk ik graag met Photoshop. Hiervoor heb ik tijdens mijn studie programmeren een extra vak voor opgenomen.
+            Deze skill is zeer handig voor foto's te bewerken voor op websites.
           </p>
         </div>
       </div>
