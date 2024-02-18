@@ -14,9 +14,8 @@
           <h4>
             C# (.NET)
           </h4>
-          <p>
-            css, scss, bootstrap
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-2">
+            Ik gebruik <b>C#</b> en <b>.NET</b> om krachtige en schaalbare software te ontwikkelen. Met mijn expertise in <b>C#</b> schrijf ik efficiënte code die voldoet aan moderne technologieën. Dit bereidt jouw projecten voor op de toekomst.
           </p>
         </div>
       </div>
@@ -26,9 +25,8 @@
           <h4>
             Java (Java Spring)
           </h4>
-          <p>
-            css, scss, bootstrap
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-2">
+            Met <b>Java</b>, en zijn <b>Spring-framework</b>, ontwikkel ik krachtige en schaalbare applicaties die voldoen aan moderne standaarden. Mijn vaardigheden in <b>Java</b> stellen mij in staat om flexibele oplossingen te bieden die de kern vormen van betrouwbare en innovatieve softwareprojecten.
           </p>
         </div>
       </div>
@@ -39,9 +37,8 @@
           <h4>
             PHP (Laravel)
           </h4>
-          <p>
-            css, scss, bootstrap
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-2">
+            Met diepgaande kennis van <b>PHP</b>, vooral binnen het <b>Laravel-framework</b>, bouw ik dynamische en schaalbare webapplicaties. Mijn vaardigheid in <b>PHP</b> stelt me in staat om op maat gemaakte oplossingen te leveren die voldoen aan de unieke eisen van jouw project.
           </p>
         </div>
       </div>
@@ -51,9 +48,10 @@
           <h4>
             Python (IOT, Flask)
           </h4>
-          <p>
-            css, scss, bootstrap
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-2">
+            <b>Python</b> is een van mijn eerste codeer talen. Hiermee heb ik de basis van programmeren geleerd.
+            Momenteel gebruik ik <b>Python</b> vooral voor het maken van kleine web applicaties via <b>FLASK</b> en
+            voor het code aspect in <b>IOT</b> oplossingen.
           </p>
         </div>
       </div>

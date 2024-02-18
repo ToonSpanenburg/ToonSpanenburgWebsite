@@ -14,7 +14,7 @@
           <h4>
             Html/Css (Scss, Bootstrap, Materialize)
           </h4>
-          <p>
+          <p class="pe-2">
             Met <b>HTML</b> en <b>CSS</b> maak ik visueel aantrekkelijke en responsieve webontwerpen die zich naadloos aanpassen aan verschillende schermformaten.
             Ook ben ik bekend met werken met <b>SCSS</b> en kan ik front-end frameworks gebruiken zoals <b>Bootstrap</b> en <b>Materialize css</b>.
           </p>
@@ -26,7 +26,7 @@
           <h4>
             Javascript (Vue.js, React, Node.js)
           </h4>
-          <p>
+          <p class="pe-2">
             Ik gebruik <b>JavaScript</b> en zijn frameworks <b>Vue.js</b> en <b>React</b> om levendige en interactieve gebruikersinterfaces te creëren.
             Ook Kan ik backend oplossingen maken met <b>Node.js</b>.
           </p>
@@ -38,7 +38,7 @@
           <h4>
             Testing (Selenium)
           </h4>
-          <p class="pe-1">
+          <p class="pe-2">
             Met Selenium beheers ik de kunst van geautomatiseerd browsen, wat me in staat stelt webapplicaties efficiënt te testen en workflows te automatiseren.
             Deze skills heb ik geleerd op de
             <b>
