@@ -12,11 +12,11 @@
       <div class="row">
         <div class="col">
           <h4>
-            Html/Css (scss, bootstrap)
+            Html/Css (Scss, Bootstrap, Materialize)
           </h4>
           <p>
-            css, scss, bootstrap
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+            Met <b>HTML</b> en <b>CSS</b> maak ik visueel aantrekkelijke en responsieve webontwerpen die zich naadloos aanpassen aan verschillende schermformaten.
+            Ook ben ik bekend met werken met <b>SCSS</b> en kan ik front-end frameworks gebruiken zoals <b>Bootstrap</b> en <b>Materialize css</b>.
           </p>
         </div>
       </div>
@@ -24,11 +24,11 @@
       <div class="row">
         <div class="col">
           <h4>
-            Javascript (Vue.js, React, Node)
+            Javascript (Vue.js, React, Node.js)
           </h4>
           <p>
-            Vue.js, React, Node
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+            Ik gebruik <b>JavaScript</b> en zijn frameworks <b>Vue.js</b> en <b>React</b> om levendige en interactieve gebruikersinterfaces te creëren.
+            Ook Kan ik backend oplossingen maken met <b>Node.js</b>.
           </p>
         </div>
       </div>
@@ -38,9 +38,12 @@
           <h4>
             Testing (Selenium)
           </h4>
-          <p>
-            Selenium
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur? Asperiores laudantium quae quia? Alias dolor explicabo fuga nesciunt vero.
+          <p class="pe-1">
+            Met Selenium beheers ik de kunst van geautomatiseerd browsen, wat me in staat stelt webapplicaties efficiënt te testen en workflows te automatiseren.
+            Deze skills heb ik geleerd op de
+            <b>
+              <a href="https://brightest.be/">Brightest Accedamy</a>.
+            </b>
           </p>
         </div>
       </div>
@@ -53,5 +56,9 @@
 .subTitleWebDesign
 {
 
+}
+b
+{
+  font-weight: bold;
 }
 </style>

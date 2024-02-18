@@ -43,7 +43,7 @@ export default {
 </script>
 
 <template>
-<div class="m-4">
+<div class="mx-4 mb-4">
   <div id="Skills" class="mb-1 mb-md-3">
     <div class="">
       <h2 class="mb-3">
