@@ -32,10 +32,15 @@ function GetTypeColor(projectType)
     return "#f5f5f5";
   }
 }
+function GoToUrl(link)
+{
+  window.location.href = link;
+}
+
 </script>
 
 <template>
-<div class="ms-0">
+<div @click="GoToUrl(Project.gitLink)" class="ms-0">
   <h4 class="py-2 ps-2 projectType" :style="{ backgroundColor: GetTypeColor(Project.type) }">
     {{Project.type}}
   </h4>
@@ -46,13 +51,10 @@ function GetTypeColor(projectType)
     <p>
       {{Project.description}}
     </p>
-    <a href="{{Project.link}}">
-      <p class="text-muted py-2  ProjectTextLink">
-        {{Project.link}}
-      </p>
-    </a>
+    <p class="text-muted py-2  ProjectTextLink">
+      {{Project.link}}
+    </p>
   </div>
-
 </div>
 </template>
 

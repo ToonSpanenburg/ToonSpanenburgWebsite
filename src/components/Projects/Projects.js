@@ -23,7 +23,7 @@ let Projects = [
     {
         type: "default",
         name: "More coming soon...",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem iure nostrum quam quia quisquam ratione tempore tenetur?",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda distinctio dolore dolorem quisquam ratione tempore tenetur?",
         link: "Coming soon...",
         gitLink:"https://github.com/ToonSpanenburg"
     },

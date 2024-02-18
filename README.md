@@ -1,6 +1,6 @@
 # toon_spanenburg_website
 
-Dit is de publieke repo voor [mijn website](https://toonspanenburg.com/)
+Dit is de publieke repo voor [toonspanenburg.com](https://toonspanenburg.com/)
 
 
 ## Project Setup

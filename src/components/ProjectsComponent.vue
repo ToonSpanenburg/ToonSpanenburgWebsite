@@ -17,10 +17,6 @@
     allProjects.value.push(firstElement);
   }
 
-  function GoToUrl(link)
-  {
-    window.location.href = link;
-  }
 
 </script>
 
@@ -48,7 +44,7 @@
 
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="ProjectsBorder Project paddingRowFixer mt-3 mb-3">
-                  <div @click="GoToUrl(allProjects[0].value.gitLink)" style="cursor: pointer;" class="rowFix">
+                  <div style="cursor: pointer;" class="rowFix">
                     <SingularProjectComponent :Project="allProjects[0]"/>
                   </div>
                 </div>
@@ -56,7 +52,7 @@
 
               <div class="d-none d-md-block col-md-6 col-lg-4">
                 <div class="ProjectsBorder Project paddingRowFixer mt-3 mb-3 ms-2">
-                  <div @click="GoToUrl(allProjects[1].value.gitLink)" style="cursor: pointer;" class="rowFix">
+                  <div style="cursor: pointer;" class="rowFix">
                     <SingularProjectComponent :Project="allProjects[1]"/>
                   </div>
                 </div>
@@ -64,7 +60,7 @@
 
               <div class="d-none d-lg-block col-lg-4">
                 <div class="ProjectsBorder Project paddingRowFixer mt-3 mb-3 ms-2">
-                  <div @click="GoToUrl(allProjects[2].value.gitLink)" style="cursor: pointer;" class="rowFix">
+                  <div style="cursor: pointer;" class="rowFix">
                     <SingularProjectComponent :Project="allProjects[2]"/>
                   </div>
                 </div>

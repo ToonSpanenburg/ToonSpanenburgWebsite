@@ -18,9 +18,6 @@ import VoorstellingComponent from "@/components/VoorstellingComponent.vue";
     <SkillsComponent/>
     <ProjectsComponent/>
     <ContactComponent/>
-    <!-- temporary for tests -->
-    <!-- <test-component/> -->
-    <!-- temporary for tests -->
     <FooterComponent/>
   </div>
 
