@@ -3,13 +3,16 @@
 </script>
 
 <template>
-<div class="m-4 ">
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquid autem consectetur consequatur distinctio eum iure, laborum, odit officia quibusdam, quidem quod tempore veniam voluptate? Ab ipsa non quisquam!
+<div class="m-4">
+<p class="text-center text-muted">
+  "Enthousiasme en expertise op het gebied van web en app-ontwikkeling."
 </p>
 </div>
 </template>
 
 <style scoped>
-
+p
+{
+  font-size: 1.3em;
+}
 </style>

@@ -11,20 +11,19 @@
             <a href="#voorstelling" class="navText">Voorstelling</a>
           </div>
 
-          <!--
-          <div class="col navItem navLine">
-            <a href="#Ervaring" class="navText">Ervaring</a>
-          </div>
-          -->
-
           <div class="col navItem navLine">
             <a href="#Skills" class="navText">Skills</a>
           </div>
           <div class="col navItem navLine">
             <a href="#Projects" class="navText">Projects</a>
           </div>
-          <div class="col navItem">
+
+          <div class="col navItem navLine">
             <a href="#Contact" class="navText">Contact</a>
+          </div>
+
+          <div class="col navItem">
+            <a href="Files/ToonSpanenburgCV.pdf" download="ToonSpanenburgCV.pdf" class="navText">Mijn Cv</a>
           </div>
         </div>
       </div>
@@ -48,11 +47,6 @@
                 <a href="#Interesses" class="navText">interesses</a>
               </li>
 
-              <!--
-              <li>
-                <a href="#Ervaring" class="navText">Ervaring</a>
-              </li>
-              -->
 
               <li>
                 <a href="#Skills" class="navText">Skills</a>
@@ -62,6 +56,11 @@
               </li>
               <li>
                 <a href="#Contact" class="navText">Contact</a>
+              </li>
+              <li>
+                <a href="#Contact" class="navText">Mijn Cv
+                  <i class="bi bi-download"></i>
+                </a>
               </li>
             </ul>
           </div>
@@ -106,5 +105,9 @@ export default {
 .btnHeader
 {
   margin-right: 100%;
+}
+i
+{
+  font-size: 1em;
 }
 </style>

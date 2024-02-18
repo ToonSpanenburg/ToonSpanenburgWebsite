@@ -30,4 +30,11 @@ export default {
       font-size: large;
     }
   }
+  @media only screen and (max-width: 500px) {
+    h3
+    {
+      font-size: 0.8em;
+      font-weight: bold;
+    }
+  }
 </style>
