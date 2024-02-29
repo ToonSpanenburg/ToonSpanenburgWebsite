@@ -11,7 +11,7 @@ import VoorstellingComponent from "@/components/VoorstellingComponent.vue";
 </script>
 
 <template>
-  <div style="" class="fullSite">
+  <div class="fullSite">
     <MyHeader/>
     <welcome-component/>
     <VoorstellingComponent/>
