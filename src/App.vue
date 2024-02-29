@@ -11,7 +11,7 @@ import VoorstellingComponent from "@/components/VoorstellingComponent.vue";
 </script>
 
 <template>
-  <div style="width: 90%; margin: auto" class="fullSite">
+  <div style="" class="fullSite">
     <MyHeader/>
     <welcome-component/>
     <VoorstellingComponent/>
@@ -24,17 +24,23 @@ import VoorstellingComponent from "@/components/VoorstellingComponent.vue";
 </template>
 
 
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
 .fullSite {
-  margin: 0;
+  margin: auto;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
   font-family: 'Urbanist', sans-serif;
+  width: 80%;
+}
+@media screen and (max-width: 600px) {
+  .fullSite
+  {
+    width: 90%;
+  }
 }
 </style>
