@@ -23,7 +23,7 @@
           </div>
 
           <div class="col navItem">
-            <a href="Files/ToonSpanenburgCV.pdf" download="ToonSpanenburgCV.pdf" class="navText">Mijn Cv</a>
+            <a href="/public/ToonSpanenburgCV.pdf" download="ToonSpanenburgCV.pdf" class="navText">Mijn Cv</a>
           </div>
         </div>
       </div>
@@ -46,8 +46,6 @@
               <li>
                 <a href="#Interesses" class="navText">interesses</a>
               </li>
-
-
               <li>
                 <a href="#Skills" class="navText">Skills</a>
               </li>
@@ -58,7 +56,7 @@
                 <a href="#Contact" class="navText">Contact</a>
               </li>
               <li>
-                <a href="#Contact" class="navText">Mijn Cv
+                <a href="/public/ToonSpanenburgCV.pdf" download="ToonSpanenburgCV.pdf" class="navText">Mijn Cv
                   <i class="bi bi-download"></i>
                 </a>
               </li>

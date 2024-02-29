@@ -10,7 +10,7 @@ const activeSkill = ref('webDesign');
 
 const mySkills = [
     "webDesign",
-    "programmeren",
+    "coderen",
     "varia"
 ];
 function buttonClick(id)
@@ -56,7 +56,7 @@ export default {
           <div  class="col-12 col-md-3 skillsLine GreyBox buttonBox pt-lg-2" >
             <div class="row">
               <div v-for="(item, index) in mySkills" :key="index" class="col-4 col-sm-4 col-md-12 p-2" >
-                <button-component @click="buttonClick(index)" :buttonName="item" />
+                <button-component class="text-center" @click="buttonClick(index)" :buttonName="item" />
               </div>
             </div>
 
@@ -69,7 +69,7 @@ export default {
               <WebdesignSkillsComponent/>
             </div>
 
-            <div v-if="activeSkill == 'programmeren'">
+            <div v-if="activeSkill == 'coderen'">
               <ProgrammerenSkillsComponent/>
             </div>
 

@@ -20,7 +20,6 @@ import VoorstellingComponent from "@/components/VoorstellingComponent.vue";
     <ContactComponent/>
     <FooterComponent/>
   </div>
-
 </template>
 
 

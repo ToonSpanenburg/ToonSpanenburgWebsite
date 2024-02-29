@@ -5,7 +5,7 @@
 <template>
   <div>
     <h3 class=" mt-4 mb-3">
-      Programmeren
+      Coderen
     </h3>
     <div class="ms-2">
 
