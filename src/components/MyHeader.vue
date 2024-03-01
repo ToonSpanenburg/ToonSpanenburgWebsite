@@ -8,7 +8,7 @@
       <div class="container justify-content-center text-center">
         <div class="row">
           <div class="col navItem navLine">
-            <a href="#voorstelling" class="navText">Voorstelling</a>
+            <a href="#voorstelling" class="navText">Home</a>
           </div>
 
           <div class="col navItem navLine">
@@ -41,7 +41,7 @@
           <div class="col">
             <ul>
               <li>
-                <a href="#voorstelling" class="navText">Voorstelling</a>
+                <a href="#voorstelling" class="navText">Home</a>
               </li>
               <li>
                 <a href="#Interesses" class="navText">interesses</a>
