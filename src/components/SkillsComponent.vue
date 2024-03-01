@@ -5,13 +5,13 @@ import WebdesignSkillsComponent from "@/components/Skills/WebdesignSkillsCompone
 import ProgrammerenSkillsComponent from "@/components/Skills/ProgrammerenSkillsComponent.vue";
 import VariaSkillsComponent from "@/components/Skills/VariaSkillsComponent.vue";
 
-const activeSkill = ref('webDesign');
+const activeSkill = ref('Web design');
 
 
 const mySkills = [
-    "webDesign",
-    "coderen",
-    "varia"
+    "Web design",
+    "Coderen",
+    "Varia"
 ];
 function buttonClick(id)
 {
@@ -55,25 +55,24 @@ export default {
 
           <div  class="col-12 col-md-3 skillsLine GreyBox buttonBox pt-lg-2" >
             <div class="row">
-              <div v-for="(item, index) in mySkills" :key="index" class="col-4 col-sm-4 col-md-12 p-2" >
-                <button-component class="text-center" @click="buttonClick(index)" :buttonName="item" />
+              <div v-for="(item, index) in mySkills" :key="index" class="col-4 col-sm-4 col-md-12 p-2">
+                <button-component class="text-center align-middle" @click="buttonClick(index)" :buttonName="item" />
               </div>
             </div>
-
           </div>
 
 
           <div class="col-sm-12 col-md-9 col-lg-9 pb-4" id="SkillBox">
 
-            <div v-if="activeSkill == 'webDesign'">
+            <div v-if="activeSkill == 'Web design'">
               <WebdesignSkillsComponent/>
             </div>
 
-            <div v-if="activeSkill == 'coderen'">
+            <div v-if="activeSkill == 'Coderen'">
               <ProgrammerenSkillsComponent/>
             </div>
 
-            <div v-if="activeSkill == 'varia'">
+            <div v-if="activeSkill == 'Varia'">
               <VariaSkillsComponent/>
             </div>
 
